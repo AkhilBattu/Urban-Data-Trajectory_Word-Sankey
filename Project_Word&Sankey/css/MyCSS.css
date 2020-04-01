@@ -1,0 +1,40 @@
+body,
+html {
+	height: 100%;
+	padding-top: 25px;
+	width: 100%;
+	margin: 0;
+}
+
+.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+  }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#map {
+	width: 680px;
+	height: 680px;
+	float: left;
+	z-index: 1;
+}
+
+#mapy {
+	width: 100%;
+	height: 100%;
+	float: left;
+	z-index: 1;
+}
+
+#rightside {
+	width: 80%;
+	height: 100%;
+	position: fixed;
+	left: 800px;
+	overflow: auto;
+}
